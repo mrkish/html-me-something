@@ -32,6 +32,10 @@ img {
     width: 30%;
 }
 
+header {
+    clear: both;
+}
+
 footer {
     font-size: small;
     text-align: center;
@@ -39,6 +43,7 @@ footer {
 }
 
 nav {
+    float: clear;
     text-align: center;
 }
 
@@ -52,6 +57,25 @@ nav ul li {
 
 .intro {
     padding: 4em;
+}
+
+#climbing-links {
+    float: left;
+    text-align: left;
+    width: 45%;
+}
+
+#climbing-types-exposition {
+    float: right;
+    padding: 3em;
+    width: 45%;
+}
+
+#end-exposittion {
+    display: block;
+    margin-top: 3em;
+    clear: both;
+    padding: 2em;
 }
 
 .place {
