@@ -1,9 +1,52 @@
-
-
-
-* {
+body {
     font-family: Calibri, sans-serif;
 }
+
+h1 {
+    text-align: center;
+    font-weight: 800;
+    line-height: 2em;
+    letter-spacing: 0.15em;
+    padding: 0.5em 0 0.25em 0;
+}
+
+a:hover {
+    color: #797979;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+footer {
+    font-size: small;
+    text-align: center;
+    padding: 3em;
+}
+
+div ul {
+    padding: 2em;
+}
+
+nav {
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 1em;
+    font-size: big;
+}
+
+nav a, nav a:visited {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+/* Class section */
 
 .place {
     background-color: #96c8d1b0;
@@ -26,61 +69,31 @@
     text-align: center;
 }
 
-h1 {
-    text-align: center;
-    font-weight: 800;
-    line-height: 2em;
-    letter-spacing: 0.15em;
-    padding: 0.5em 0 0.25em 0;
-}
-
-footer {
-    font-size: small;
-    text-align: center;
-    padding: 3em;
-}
-
 .intro {
-    padding: 2em;
+    padding: 4em;
 }
 
 .intro span {
     font-weight: bold;
 }
 
-.intro a, .intro a:hover, .intro a:visited {
+.to-nav, .to-nav a:visited {
+    display: block;
     text-decoration: none;
+    font-size: smaller;
     color: black;
+    text-align: center;
 }
 
-.intro a:hover {
+.to-nav:hover {
+    display: block;
     text-decoration: none;
+    font-size: smaller;
     color: #797979;
-}
-
-nav ul{
     text-align: center;
 }
-nav ul li {
-    display: inline-block;
-    text-align: center;
-    margin-right: 1em;
-    font-size: big;
-}
 
-nav a, nav a:visited {
-    font-weight: bold;
-    text-decoration: none;
-}
-
-nav a:hover {
-    font-weight: bold;
-    text-decoration: none;
-    color: #3d3d3d;
-}
-
-
-img {
+.place img {
     display: inline-block;
     margin-left: 1%;
     margin-right: 1%;
@@ -89,6 +102,8 @@ img {
     max-width: 30%;
     max-height: 40%;
 }
+
+/* The "why not?" part of the website */
 
 #banana-page {
     display: block;
@@ -109,9 +124,17 @@ img {
     width: 50%;
 }
 
-#banana-page-link a:hover, #banana-page-link a:visited, #banana-page-link p {
-    padding: 5em;
-    color: black
+#banana-img {
+    padding: 2em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#banana-p {
+    color: white;
+    text-align: center;
 }
 
 #banana-page-footer {
