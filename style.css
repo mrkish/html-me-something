@@ -55,8 +55,8 @@ nav ul li {
 }
 
 .place {
-    background-color: #96c8d1e3;
-    color: #3d3d3d;
+    background-color: #62dcf1b6;
+    color: #363636;
     box-shadow: 1em 1em 3em 0 #5f5f5f;
     align-self: center;
     padding: 2em;
@@ -74,16 +74,16 @@ nav ul li {
 }
 
 .image {
-    display: inline;
-    vertical-align: center;
+    display: block;
+    text-align: center;
     position: relative;
     margin: 1%;
 }
 .to-nav {
     display: block;
+    margin: 0 auto;
     font-size: x-small;
     text-align: center;
-    vertical-align: center;
 }
 
 /* The "why not?" part of the website */
