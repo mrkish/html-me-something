@@ -1,3 +1,6 @@
+
+
+
 * {
     font-family: Calibri, sans-serif;
 }
@@ -14,6 +17,23 @@
     margin-right: auto;
 }
 
+.place h2 {
+    font-family:  "tablet-gothic-condensed", "arial narrow", arial, verdana, sans-serif;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 1em;
+    padding: 0.5em 0 0.25em 0;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 800;
+    line-height: 2em;
+    letter-spacing: 0.15em;
+    padding: 0.5em 0 0.25em 0;
+}
+
 footer {
     font-size: small;
     text-align: center;
@@ -24,14 +44,49 @@ footer {
     padding: 2em;
 }
 
+.intro span {
+    font-weight: bold;
+}
+
+.intro a, .intro a:hover, .intro a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.intro a:hover {
+    text-decoration: none;
+    color: #797979;
+}
+
+nav ul{
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 1em;
+    font-size: big;
+}
+
+nav a, nav a:visited {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-weight: bold;
+    text-decoration: none;
+    color: #3d3d3d;
+}
+
+
 img {
     display: inline-block;
     margin-left: 1%;
     margin-right: 1%;
     margin-bottom: auto;
-    align-content: center;
     width: 50%;
-    max-width:30%;
+    max-width: 30%;
     max-height: 40%;
 }
 
@@ -54,16 +109,7 @@ img {
     width: 50%;
 }
 
-#banana-page-link p {
-    padding: 5em;
-    color: black
-}
-#banana-page-link a:hover {
-    padding: 5em;
-    color: black
-}
-
-#banana-page-link a:visited {
+#banana-page-link a:hover, #banana-page-link a:visited, #banana-page-link p {
     padding: 5em;
     color: black
 }
